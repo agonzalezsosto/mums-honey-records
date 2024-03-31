@@ -1,0 +1,48 @@
+body {
+    background-color: #FFDAB7;
+    font-family: "Crimson Pro", serif;
+}
+
+.title { 
+    font-size: 10vh;
+    margin-bottom: 0px;
+}
+
+.subtitle { 
+    font-size: 4vh;
+}
+
+header {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    width: 20vh; /* Adjust width of the logo as needed */
+    /* margin-left: auto; Move the logo to the right  */
+}
+
+.text-content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack text content vertically */
+}
+
+.title, .subtitle {
+    margin: 0; /* Remove default margins */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr)); /* Adjust column width as needed */
+    grid-gap: 20px; /* Adjust gap between grid items as needed */
+    padding: 20px;
+}
+
+.cover {
+    background-color: #fff; /* Set background color for cover items */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect to cover items */
+}
+
+.cover img {
+    width: 100%; /* Make cover images fill their container */
+}

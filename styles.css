@@ -35,14 +35,17 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr)); /* Adjust column width as needed */
     grid-gap: 20px; /* Adjust gap between grid items as needed */
-    padding: 20px;
+    padding-top: 5vh;
+    padding-left: 2.5vh;
 }
 
 .cover {
     background-color: #fff; /* Set background color for cover items */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect to cover items */
+    border-radius: 5px; 
 }
 
 .cover img {
     width: 100%; /* Make cover images fill their container */
+    border-radius: 5px; 
 }
